@@ -13,12 +13,7 @@ class GetWeather extends Component {
         }
     }
 
-    getWeatherInfo(city, inputItemCity, flag) {
-
-        if (flag === true) {
-            city = inputItemCity;
-        }
-
+    getWeatherInfo(city) {
         if (city !== undefined) {
             let info = new XMLHttpRequest();
 
@@ -62,7 +57,11 @@ class GetWeather extends Component {
         let inputItemCity = nextProps.InputItemCity;
         let flag = nextProps.InputItemFlag;
 
-        this.getWeatherInfo(city, inputItemCity, flag);
+        if (flag === true) {
+            this.getWeatherInfo(inputItemCity);
+        } else {
+            this.getWeatherInfo(city);
+        }
     }
 
     render() {

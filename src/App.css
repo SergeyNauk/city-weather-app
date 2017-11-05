@@ -16,14 +16,6 @@
   color: white;
   margin-left: 15px; }
 
-.sharpMinds {
-  font-size: 1.5rem;
-  float: right;
-  display: inline-block;
-  margin-right: 60px;
-  margin-top: -20px;
-  transform: rotate(15deg); }
-
 .iconWeather {
   width: 12%; }
 
@@ -100,13 +92,6 @@ table {
     margin-top: 52px;
     color: white;
     margin-left: 22px; }
-  .sharpMinds {
-    font-size: 2.25rem;
-    float: right;
-    display: inline-block;
-    margin-right: 90px;
-    margin-top: -30px;
-    transform: rotate(15deg); }
   .iconWeather {
     width: 12%; }
   .underText {
