@@ -1,0 +1,130 @@
+.header-app {
+  width: 100%;
+  height: 180px;
+  background-color: red; }
+  .header-app:before, .header-app:after {
+    content: "";
+    display: table; }
+  .header-app:after {
+    clear: both; }
+
+.message {
+  font-family: 'Tangerine', serif;
+  font-size: 3.5rem;
+  display: inline-block;
+  margin-top: 35px;
+  color: white;
+  margin-left: 15px; }
+
+.sharpMinds {
+  font-size: 1.5rem;
+  float: right;
+  display: inline-block;
+  margin-right: 60px;
+  margin-top: -20px;
+  transform: rotate(15deg); }
+
+.iconWeather {
+  width: 12%; }
+
+.underText {
+  vertical-align: sub;
+  font-size: 1.25rem; }
+
+.upText {
+  vertical-align: super; }
+
+.temperature {
+  margin-right: 20px; }
+
+.viewWeather {
+  display: none;
+  font-family: 'Tangerine', serif;
+  font-size: 2rem;
+  color: red;
+  margin-left: 20px; }
+  .viewWeather p:nth-child(1) {
+    color: red;
+    margin-left: 40px;
+    font-size: 2.5rem; }
+  .viewWeather p {
+    margin-left: 30px; }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@media only screen and (width: 1920px) {
+  .header-app {
+    width: 100%;
+    height: 270px;
+    background-color: red; }
+    .header-app:before, .header-app:after {
+      content: "";
+      display: table; }
+    .header-app:after {
+      clear: both; }
+  .message {
+    font-family: 'Tangerine', serif;
+    font-size: 5.25rem;
+    display: inline-block;
+    margin-top: 52px;
+    color: white;
+    margin-left: 22px; }
+  .sharpMinds {
+    font-size: 2.25rem;
+    float: right;
+    display: inline-block;
+    margin-right: 90px;
+    margin-top: -30px;
+    transform: rotate(15deg); }
+  .iconWeather {
+    width: 12%; }
+  .underText {
+    vertical-align: sub;
+    font-size: 1.875rem; }
+  .upText {
+    vertical-align: super; }
+  .temperature {
+    margin-right: 30px; }
+  .viewWeather {
+    display: none;
+    font-family: 'Tangerine', serif;
+    font-size: 3rem;
+    color: red;
+    margin-left: 30px; }
+    .viewWeather p:nth-child(1) {
+      color: red;
+      margin-left: 60px;
+      font-size: 3.75rem; }
+    .viewWeather p {
+      margin-left: 45px; } }
